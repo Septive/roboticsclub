@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="120x120" href="arduino1.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="style%20(1).css">
+    <link rel="stylesheet" type="text/css" href="style.css">  
+    <body class="background"></body> 
+    
+    <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="register.html">Register</a>
+    <a href="login.html">Login</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+<script>
+    
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+    
+</script>
+     
+<head><center><h1 class="login1">Login Page</h1></center></head>
+   
+    <body>
+        <center>
+            <h3 class="info">Please log in using your Username & Password.</h3><br />
+                <form action="action_page.php">
+                    <div class="inputs">
+                        <center>
+                            <label for="uname"><b></b></label> 
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+                        </center> <br />
+                        
+      <center><label for="psw"></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+      </center> <br />
+            </div> 
+                        <label>
+                            <i>Remember Me</i>
+                                <input type="checkbox" checked="checked" name="remember" class="check"> 
+                        </label>
+        <br />
+        <br />
+
+  
+    <div class="container2">
+    <button type="submit" class="submit"><p class="border">Login</p></button>
+    <br />
+    <br />
+    
+    </form>        
+    <a href="forgotpassword.html"><button style="button" class="submit"><p class="border">Forgot Password?</p></button></a>
+    </div>     
+    </center>
+    
+    </body>
+    <div class="sticker" id="coding">T</div>
+    <center>
+        <div class="footer"><p>®Made By Tirth Patel</p></div>
+    </center>
+    
+    
+    
+</html>
